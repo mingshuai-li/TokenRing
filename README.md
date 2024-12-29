@@ -8,10 +8,10 @@ proves computation-communication overlap and accelerates processing in attention
 ### Diffusion Transformers (DiTs)
 We have also integrated the Token ring into [xDit](https://github.com/xdit-project/xDiT). To use it, after installing xDit, you need to replace corresponding files as follows.
 
-attn_layer.py: yunchang>hybrid>attn_layer.py
-attn_layer_xdit.py: xDit>xfuser>core>long_ctx_attention>hybrid>attn_layer.py
-globals.py: yunchang>globals.py
-utils.py: yunchang>ring>utils.py
+attn_layer.py: yunchang>hybrid>attn_layer.py  
+attn_layer_xdit.py: xDit>xfuser>core>long_ctx_attention>hybrid>attn_layer.py  
+globals.py: yunchang>globals.py  
+utils.py: yunchang>ring>utils.py  
 ring_flash_attn.py: xDit>xfuser>core>long_ctx_attention>ring>ring_flash_attn.py
 
 ### Large language model (LLM)
